@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Web 服务器示例</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>資料處理範例</h1>
+    <form id="dataForm">
+        索引值：　　　<input type="text" id="input1" name="索引值" placeholder="Input 1"><br>
+        房號：　　　　<input type="text" id="input2" name="房號" placeholder="Input 2"><br>
+        房型：　　　　<input type="text" id="input3" name="房型" placeholder="Input 3"> <br>
+        價格：　　　　<input type="text" id="input4" name="價格" placeholder="Input 4"> <br>
+        附早餐數：　　<input type="text" id="input5" name="附早餐數" placeholder="Input 5"><br>
+    </form>
+    
+
+    <!-- 新增功能按钮 -->
+    <button id="insertBtn">新增資料</button>　
+    <!-- 查询功能按钮 -->
+    <button id="findBtn">查詢資料</button>　
+    <!-- 删除功能按钮 -->
+    <button id="deleteBtn">删除資料</button>　
+    <!-- 修改功能按钮 -->
+    <button id="updateBtn">修改資料</button><br>
+    <!-- 結果 -->
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
